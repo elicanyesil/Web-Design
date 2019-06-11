@@ -1,0 +1,153 @@
+<html>
+
+
+
+
+<script>
+function register() {
+  document.getElementById("header").innerHTML="REGISTER NOW!";
+  document.getElementById("container").style.width="35%";
+
+  document.getElementById("login_div").style.display = "none";
+  document.getElementById("register_div").style.display = "block";
+  
+}
+function login() {
+  document.getElementById("header").innerHTML="LOGIN NOW!";
+  document.getElementById("container").style.width="35%";
+  document.getElementById("login_div").style.display = "block";
+  document.getElementById("register_div").style.display = "none";
+}
+
+function pass_compare() {
+
+	pass = document.getElementById("register_password").value;
+	repass = document.getElementById("register_repassword").value;
+	if(pass === repass){
+	
+	}else{
+		alert("Password and repassword does not match!");
+		event.preventDefault();
+	}
+}
+</script>
+
+
+
+
+
+<head> 
+	<title>Login Now</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext,vietnamese" rel="stylesheet">
+	<link rel="stylesheet" type="text/css"  href="logincss.css"/>
+</head>
+
+<body>
+	
+	<div id= "container">
+	
+		
+	
+		<div id="title_div">
+			<span id="header"class="title">LOGIN NOW!</span>
+		</div>
+		
+		<div id="radio_div">
+			 <input type="radio" class="login_radio" id="login_radio" name="radio" value="login" onchange="login()" checked>
+			 <label for="login_radio">Existing Member<br><span class="a"> If you already have an account CLICK HERE to login. </span></label>
+			 
+			 <span id="span" class="radio_span">or</span>
+			 
+			 <input type="radio"class="register_radio" id="register_radio" name="radio" value="register" onchange="register()">
+			 <label for="register_radio">New Member<br><span class="a"> If you dont have an account CLICK HERE to signup! </span></label>
+		</div>
+	
+		<div id="login_div">
+		<form id="login_form" action="logincheck.php" method="post">
+			<div id="username_div" >
+				<input type="text" name="name" id="name" class="username" placeholder="Username">
+			</div>
+		
+			<div id="password_div">
+				<input type="password" name="pass" id="pass" class="password" placeholder="Password">
+			</div>
+		
+			<div id="submit_div">
+				<input type="submit" class="submit" value="Login !">
+			</div>
+		</form>
+		</div>
+		
+		<div id="register_div">
+			<form id="register_form" action="RegisterFormProcess.php" method="post">
+			<div id="acc_info">
+			
+				<div id="sub_title_div"> 
+					<span class="sub_title">1.Account Information</span>
+				</div>
+			
+				<div id="register_username_div">
+					<input type="text" id="register_username" name="register_username" class="register_username" placeholder="Username">
+				</div>
+			
+				<div id="register_password_div">
+					<input type="text" id="register_password" name="register_password" class="register_password" placeholder="Password">
+				</div>
+			
+				<div id="register_repassword_div">
+					<input type="text" id="register_repassword" name="register_repassword" class="register_repassword" placeholder="Repassword">
+				</div>
+			
+			</div>
+			
+			<div id="personal_info">
+			
+				<div  id="sub_title_div"> 
+					<span class="sub_title">2.Personal Information</span>
+				</div>
+			
+				<div id="fullname_div">
+					<input type="text" name="fullname" id="fullname" class="fullname" placeholder="Fullname">
+				</div>
+			
+				<div id="email_div">
+					<input type="text" name="email" id="email" class="email" placeholder="E-mail">
+				</div>
+			
+				<div id="adress_div">
+					<input type="text" name="adress" id="adress" class="adress" placeholder="Adress">
+				</div>
+			
+				<div id="sub_title_div">
+					<span class="sub_title">3.Pet History</span>
+				</div>
+			
+			</div>
+			
+			<div id="pet_info_radio_div">
+				<div id="radio1">
+					<input type="radio" class="pet_info_radio" id="pet_info_radio" name="pet_info_radio" checked>
+					<label for="pet_info_radio">Pet Owner</label>
+				</div>
+				
+				<div id="radio2">
+					<input type="radio" class="pet_info_radio_2" id="pet_info_radio_2" name="pet_info_radio">
+					<label for="pet_info_radio_2">ex-Pet Owner</label>
+				</div>
+				
+				<div id="radio3">
+					<input type="radio" class="pet_info_radio_3" id="pet_info_radio_3" name="pet_info_radio" >
+					<label for="pet_info_radio_3">Never owned a pet</label>
+				</div>
+		
+		</div>
+			
+			<div id="register_submit_div">
+				<input type="submit" value="Sign Up!" class="submit" onclick="pass_compare()">
+			</div>
+			</form>
+	</div>
+	
+	</div>
+</body>
+</html>

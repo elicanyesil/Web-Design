@@ -1,0 +1,148 @@
+<html>
+	
+	<head>
+		<title>Donations</title>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext,vietnamese" rel="stylesheet">
+		<link rel="stylesheet" type="text/css"  href="donatecss.css"/>
+	</head>
+
+	<body>
+	<form id="form">
+		<div id="container">
+			
+			<div id="content">
+				
+				<div id="gri_div"> <!-- design amaçlı --->
+				</div>
+				
+				<div id="header_div">
+					
+					<div id="header_span_div">
+						<span class="header_span"> Pay What You Want! </span>
+					</div>
+					
+					<div id="header_radio1_div">
+						<input type="radio" class="header_radio1" id="header_radio1" name="radio" checked>
+						<label class="header_label"for="header_radio1"> 15 TL </label>
+					</div>
+					
+					<div id="header_radio2_div">
+						<input type="radio" class="header_radio2" id="header_radio2" name="radio">
+						<label for="header_radio2"> 25 TL </label>
+					</div>
+					
+					<div id="header_radio3_div">
+						<input type="radio" class="header_radio3" id="header_radio3" name="radio">
+						<label for="header_radio3"> Custom Amount </label>
+					</div>
+					
+				</div>
+				
+				<div id="subtitle_div">
+				
+					<div id="subtitle_span_div">
+						<span class="subtitle_span">&#x25BC; Choose where your money goes</span>
+					</div>
+					
+					<div id="reset_div">
+						<input type="reset" value="Reset" class="reset">
+					</div>
+					
+				</div>
+				
+				<div id="subtitle2_div">
+					<div id="subtitle2_span_div">
+						<span class="subtitle2_span"> &#x25BC; Charity </span>
+					</div>
+				</div>
+				
+				<div id="slider_content_div">
+				
+					<!-- slider1 --->
+					<div id="slider1_div">
+					
+						<div id="slider1_span_div">
+							<span class="slider1_span">To Shelters </span>
+						</div>
+						
+						<div id="slider1">
+						<input type="range" id="myRange" class="slider"  min="0" max="100" value="0">
+						</div>
+						
+						<div id="slider1_span">
+							<span><span id="value"></span> TL</span>
+						</div>
+						
+					</div>
+					
+					<!-- slider2  --->
+					<div id="slider2_div">
+					
+						<div id="slider2_span_div">
+							<span class="slider2_span">For Treatments / Medicine </span>
+						</div>
+						
+						<div id="slider2">
+							<input type="range" id="myRange2" class="slider"  min="0" max="100" value="0">
+						</div> 
+						
+						<div id="slider1_span">
+							<span><span id="value2"></span> TL</span>
+						</div>
+						
+					</div>
+					
+					<!-- slider3  --->
+					<div id="slider3_div">
+					
+						<div id="slider3_span_div">
+							<span class="slider3_span">For Food </span>
+						</div>
+						
+						<div id="slider3">
+							<input type="range" id="myRange3" class="slider"  min="0" max="100" value="0">
+						</div> 
+						
+						<div id="slider3_span">
+							<span><span id="value3"></span> TL</span>
+						</div>
+						
+					</div>
+					
+					<!-- slider4  --->
+					<div id="slider4_div">
+					
+						<div id="slider4_span_div">
+							<span class="slider4_span">Support Us </span>
+						</div>
+						
+						<div id="slider4">
+							<input type="range" id="myRange4" class="slider"  min="0" max="100" value="0">
+						</div> 
+						
+						<div id="slider4_span">
+							<span><span id="value4"></span> TL</span>
+						</div>
+						
+					</div>
+					
+				</div>
+				
+				<div id="button_div">
+					<input type="button" value="DONATE!" class="donate_button" onclick="donation_alert()">
+				</div>
+				
+			</div>
+			
+		</div>
+	</form>	
+	<script type="text/javascript">
+		function donation_alert(){
+		alert("Thank you for your donation!");
+		}
+	</script>
+	</body>
+	
+	
+	<script src="rangeslider.js"> </script>
+</html>

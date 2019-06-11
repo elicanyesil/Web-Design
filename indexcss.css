@@ -1,0 +1,181 @@
+#container{
+	background-color: white;
+	padding:0;
+	margin: 0;
+	
+}
+
+/*resim duzeltilicek*/
+#header{
+	width: 100%;
+	min-width: 1200px;
+	padding: 0 ;
+	
+}
+#header img{
+	width: 100%;
+	height: 20%;
+	min-width: 1200px;
+	top: 0;
+	left:0;
+	
+		
+	
+}
+
+.Login{
+	background-color:#00b2f0;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border-radius:25px;
+	border:1px solid #00b2f0;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:6px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	position: relative;
+	left: 81%;
+	bottom:20px;
+}
+.Login:hover {
+	background-color:#5cbf2a;
+}
+.Login:active {
+	position: relative;
+	top:-19px;
+}
+
+#menu {
+	width: 100%;
+	min-width: 1200px;
+	background-color:grey;
+	padding:10px 0px 10px 0px;
+	
+
+}
+#menu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+#menu ul li {
+	display:inline;	
+	
+	
+}
+#menu ul li a {
+	text-decoration: none;
+	padding: 10px 50px;
+	color: white;
+	font-size:16px;
+	font-weight:500;
+	font-family: Montserrat, Arial;
+ }
+#menu ul li a:hover {
+	background-color: #63656a;
+}
+
+#main{
+	padding-left: 3.6%;
+	padding-right:5%;
+	
+	
+}
+
+#animalcontent{
+	
+	width: 70%;
+	min-width: 600px;
+	float: left;
+	
+	
+	
+}
+#animalcontent table{
+	border:none;
+	border-spacing: 20px 40px;
+	
+}
+#animalcontent img {
+	width:101%;
+	height:30%;
+	border:1px solid #d3d3d3;
+	border-radius:15px;
+	box-shadow: 0.1px 0.1px ;
+	
+}
+#animalcontent img:active{
+	position:relative;
+	top:1px;
+	
+}
+
+ 
+#sidebar{
+	
+	width: 20%;
+	min-width: 200px;
+	float: right;
+	padding:10px 0px 0px 0px; 
+}
+
+.sidebar_header{
+	font-family: Montserrat, Arial;
+	font-size: 22px;
+	font-weight: 700;
+	
+}
+.sidebar_text{
+	font-family: Montserrat, Arial;
+	font-size: 17px;
+	font-weight: 400;
+	
+}
+
+.sidebar_button {
+	background-color:#44c767;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border-radius:25px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:11px 70px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.sidebar_button:hover {
+	background-color:#5cbf2a;
+}
+.sidebar_button:active {
+	position:relative;
+	top:1px;
+}
+
+#sidebar img {
+	width:120%;
+	height:60%;
+	
+	
+	
+}
+
+
+#bottom{
+	width: 100%;
+	min-width: 1200px;
+	clear:both;
+}

@@ -1,0 +1,504 @@
+
+#container{
+	
+    width: 35%;
+	min-width:30%;
+	background-color:grey;
+	border:0px solid #d3d3d3;
+	border-radius:15px;
+	margin: 0 auto;
+	margin-top:6%;
+	
+}
+#title_div{
+	border:0px solid #d3d3d3;
+	border-radius:15px;
+	padding:5%;
+	width:90%;
+	min-width:70%;
+	display: inline-block;
+	text-align: center;
+}
+.title{
+	font-family: Montserrat, Arial;
+	font-size: 24px;
+	font-weight: 700;
+	color:white;
+	
+}
+
+#radio_div{
+	border:0px solid #d3d3d3;
+	width:89.5%;
+	padding-left:5%;
+	padding-right:5%;
+	padding-bottom:2%;
+	padding-top:2%;
+	text-align:center;
+	margin:auto;
+	
+}
+.radio_span{
+	padding-left:2%;
+	padding-right:2%;
+	font-family: Montserrat, Arial;
+	font-weight: 500;
+	color:white;
+	
+}
+
+#radio_div input[type=radio] {
+	width: 100%;
+    display:none; 
+	
+	
+}
+
+#radio_div label{
+	color: white;
+	font-family:Montserrat;
+	font-weight: 500;
+	
+}
+
+#radio_div input[type=radio] + label {
+    display:inline-block;
+	max-width: 34.6%;
+    padding:  4% 5.2%;
+    background-color: #b7b7b7;
+    border-color: #ddd;
+	cursor:pointer;
+}
+
+#radio_div input[type=radio]:checked + label { 
+	background-image: none;
+    background-color:#00b2f0;
+	box-shadow:inset 0 1px 5px #0082c0;
+}
+#radio_div input[type=radio]:not(:checked):hover + label { 
+	position:relative;
+	top:1px;
+}
+
+#radio_div input[type=radio]:not(:checked) + label { 
+	box-shadow: 1.8px 1.8px #a7a7a7;
+}
+
+.a{
+	color: white;
+	font-family:Montserrat;
+	font-weight: 400;
+	font-size:8px;
+	
+	
+}
+
+input, select, textarea{
+    color: white;
+	font-family:Montserrat;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+textarea:focus, input:focus {
+    color: white;
+	font-family:Montserrat;
+	font-weight: 500;
+}
+
+ #username_div{
+	border:0px solid #d3d3d3;
+	width:89.5%;
+	padding:5%;
+ }
+ 
+ .username{
+	 width:100%;
+	outline-style:none;
+	
+	border-top-style:none;
+	border-right-style:none;
+	border-left-style:none;
+	
+	border-bottom-color:white;
+	background-color: grey;
+	 
+ }
+ 
+ #password_div{
+	border:0px solid #d3d3d3;
+	width:89.5%;
+	padding:5%;
+ }
+ 
+.password{
+	
+	width:100%;
+	outline-style:none;
+	
+	border-top-style:none;
+	border-right-style:none;
+	border-left-style:none;
+	
+	border-bottom-color:white;
+	background-color: grey;
+	 
+ }
+ 
+ #repassword_div{
+	border:0px solid #d3d3d3;
+	width:89.5%;
+	padding:5%;
+ }
+ 
+.repassword{
+	
+	width:100%;
+	outline-style:none;
+	
+	border-top-style:none;
+	border-right-style:none;
+	border-left-style:none;
+	
+	border-bottom-color:white;
+	background-color: grey; 
+ }
+ 
+ #submit_div{
+	border-radius:15px;
+	border:0px solid #d3d3d3;
+	width:89.5%;
+	padding:5%; 
+	text-align: center;
+ }
+ 
+.submit{
+	
+	background-color:#00b2f0;
+
+	width:100%;
+	border:0px solid #00a1e0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Montserrat;
+	font-size:17px;
+	font-weight:600;
+	padding:8px 50px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.submit:hover{
+	background-color:#5cbf2a;
+}
+.submit:active{
+	position:relative;
+	top:1px;
+}
+ 
+ #register_div{
+	 display:none;
+ }
+ 
+  #register_username_div{
+	border:0px solid #d3d3d3;
+	width:89.5%;
+	padding:5%;
+ }
+ 
+ .register_username{
+	 width:100%;
+	outline-style:none;
+	
+	border-top-style:none;
+	border-right-style:none;
+	border-left-style:none;
+	
+	border-bottom-color:white;
+	background-color: grey;
+	 
+ }
+ 
+  #register_password_div{
+	border:0px solid #d3d3d3;
+	width:89.5%;
+	padding:5%;
+ }
+ 
+ .register_password{
+	 width:100%;
+	outline-style:none;
+	
+	border-top-style:none;
+	border-right-style:none;
+	border-left-style:none;
+	
+	border-bottom-color:white;
+	background-color: grey;
+	 
+ }
+ 
+ #register_repassword_div{
+	border:0px solid #d3d3d3;
+	width:89.5%;
+	padding:5%;
+ }
+ 
+ .register_repassword{
+	 width:100%;
+	outline-style:none;
+	
+	border-top-style:none;
+	border-right-style:none;
+	border-left-style:none;
+	
+	border-bottom-color:white;
+	background-color: grey;
+	 
+ }
+ 
+ #fullname_div{
+	border:0px solid #d3d3d3;
+	width:89.5%;
+	padding:5%;
+ }
+ 
+ .fullname{
+	 width:100%;
+	outline-style:none;
+	
+	border-top-style:none;
+	border-right-style:none;
+	border-left-style:none;
+	
+	border-bottom-color:#f3f3f3;
+	background-color: grey;
+ }
+ 
+  #email_div{
+	border:0px solid #d3d3d3;
+	width:89.5%;
+	padding:5%;
+ }
+ 
+ .email{
+	 width:100%;
+	outline-style:none;
+	
+	border-top-style:none;
+	border-right-style:none;
+	border-left-style:none;
+	
+	border-bottom-color:white;
+	background-color: grey;
+ }
+ 
+  #adress_div{
+	border:0px solid #d3d3d3;
+	width:89.5%;
+	padding:5%;
+ }
+ 
+ .adress{
+	 width:100%;
+	outline-style:none;
+	
+	border-top-style:none;
+	border-right-style:none;
+	border-left-style:none;
+	
+	border-bottom-color:white;
+	background-color: grey;
+ }
+ 
+ 
+ #sub_title_div{
+	display:inline-block;
+	width:90%;
+	border-bottom: 3px solid #00b2f0;
+	margin-left:5%;
+	margin-bottom:2px;
+	margin-top:2px;
+	margin-right:5%;
+	
+	 
+ }
+ .sub_title{
+	color:white;
+	font-family:Montserrat;
+	font-weight:500;
+	font-size:18px;
+	
+	
+	 
+	 
+ }
+ 
+ #pet_info_radio_div{
+	border:0px solid #d3d3d3;
+	width:89.5%;
+	padding:5%;
+	display:inline-block;
+ }
+ 
+ #radio1{
+	border:1px solid #d3d3d3; 
+	width:31.5%;
+	float:left;
+	text-align:center;
+ }
+ 
+
+#radio1 input[type=radio] {
+    display:none; 
+	
+	
+}
+
+#radio1 label{
+	color: white;
+	font-family:Montserrat;
+	font-weight: 500;
+	font-size:13px;
+	
+}
+
+#radio1 input[type=radio] + label {
+    display:inline-block;
+	padding-bottom:8%;
+	padding-top:8%;
+    background-color: #a7a7a7;
+    border-color: #ddd;
+	padding-left:23%;
+	padding-right:23%;
+	cursor:pointer;
+	
+}
+
+#radio1 input[type=radio]:checked + label { 
+   background-image: none;
+    background-color:#00b2f0;
+}
+#radio1 input[type=radio]:not(:checked):hover + label { 
+   position:relative;
+   top:0.5px;
+}
+
+ #radio2{
+	border:1px solid #d3d3d3; 
+	width:31.5%;
+	float:left;
+	margin-right:8px;
+	margin-left:8px;
+	text-align:center;
+ }
+ 
+ #radio2 input[type=radio] {
+    display:none; 
+	
+	
+}
+
+#radio2 label{
+	color: white;
+	font-family:Montserrat;
+	font-weight: 500;
+	font-size:13px;
+	
+}
+
+#radio2 input[type=radio] + label {
+    display:inline-block;
+	padding-bottom:8%;
+	padding-top:8%;
+	padding-left:15.5%;
+	padding-right:15.7%;
+    background-color: #a7a7a7;
+    border-color: #ddd;
+	cursor:pointer;
+}
+
+#radio2 input[type=radio]:checked + label { 
+   background-image: none;
+    background-color:#00b2f0;
+}
+
+#radio2 input[type=radio]:not(:checked):hover + label { 
+   position:relative;
+   top:0.5px;
+}
+ 
+ #radio3{
+	border:1px solid #d3d3d3; 
+	width:31.5%;
+	float:left;
+	text-align:center;
+ }
+ 
+ #radio3 input[type=radio] {
+    display:none; 
+	
+	
+}
+
+#radio3 label{
+	color: white;
+	font-family:Montserrat;
+	font-weight: 500;
+	font-size:13px;
+	
+	
+}
+
+#radio3 input[type=radio] + label {
+    display:inline-block;
+	padding-bottom:8%;
+	padding-top:8%;
+	padding-left:2%;
+	padding-right:2.4%;
+    background-color: #a7a7a7;
+    border-color: #ddd;
+	cursor:pointer;
+}
+
+#radio3 input[type=radio]:checked + label { 
+   background-image: none;
+    background-color:#00b2f0;
+}
+
+#radio3 input[type=radio]:not(:checked):hover + label { 
+   position:relative;
+   top:0.5px;
+}
+
+#register_submit_div{
+	border-radius:15px;
+	border:0px solid #d3d3d3;
+	width:89.5%;
+	padding:5%; 
+	text-align: center;
+	
+}
+ 
+ 
+#acc_info{
+	width:100%;
+	
+}
+
+#personal_info{
+	width:100%;
+	
+}
+ ::placeholder { /* For Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #d3d3d3;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* For Internet Explorer 10-11 */
+  color: #d3d3d3;
+}
+::-ms-input-placeholder { /* For Microsoft Edge */
+  color: #d3d3d3;
+}
+
+

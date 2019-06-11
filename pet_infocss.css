@@ -1,0 +1,539 @@
+#container{
+	background-color: white;
+	padding:0;
+	margin: 0;
+	
+}
+
+/*resim duzeltilicek*/
+#header{
+	width: 100%;
+	min-width: 1200px;
+	padding: 0 ;
+	
+}
+#header img{
+	width: 100%;
+	height: 20%;
+	min-width: 1200px;
+	top: 0;
+	left:0;
+	
+		
+	
+}
+
+.Login{
+	background-color:#00b2f0;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border-radius:25px;
+	border:1px solid #00b2f0;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:6px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	position: relative;
+	left: 81%;
+	bottom:20px;
+}
+.Login:hover {
+	background-color:#5cbf2a;
+}
+.Login:active {
+	position: relative;
+	top:-19px;
+}
+
+#menu {
+	border: 0px solid black;
+	width: 100%;
+	min-width: 1200px;
+	background-color:grey;
+	padding:10px 0px 10px 0px;
+	
+
+}
+#menu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+#menu ul li {
+	display:inline;	
+	
+	
+}
+#menu ul li a {
+	text-decoration: none;
+	padding: 10px 50px;
+	color: white;
+	font-size:16px;
+	font-weight:500;
+	font-family: Montserrat, Arial;
+ }
+#menu ul li a:hover {
+	background-color: #63656a;
+}
+
+#main{
+	border: 0px solid black;
+	display:inline-block;
+	width:100%;
+	
+}
+
+#animalcontent{
+	border: 0px solid black;
+	width: 75%;
+	min-width: 600px;
+	min-height:300px;
+	float: left;
+	display:inline-block;
+}
+#pet_photo{
+	border: 0px solid black;
+	border-radius:40px;
+	background-color:#e3e3e3;
+	float:left;
+	width:33%;
+	height:83.5%;
+	margin-left:18%;
+	margin-top:4%;
+}
+#photo_name{
+	border:0px solid black;
+	border-radius: 40px 40px 0px 0px;
+	height:7.8%;
+	text-align:center;
+	padding-top:5%;
+}
+.loki{
+	
+	font-family: Montserrat, Arial;
+	font-size: 26px;
+	font-weight: 700;
+	color:black;
+	
+	
+}
+#photo{
+	border: 0px solid black;
+	height: 63.5%;
+}
+#photo_container{
+	
+	margin-left:5%;
+	margin-right:5%;
+	margin-bottom:1%;
+	margin-top:0.5%;
+	border: 0px solid red;
+	height:98.5%;
+	width:90%;
+}
+.loki_image{
+	width:120%;
+	height:120%;
+	position:relative;
+	right:8.2%;
+	bottom:7.3%;
+	
+}
+#other_photo{
+	border: 0px solid black;
+	height: 15.5%;
+	text-align:center;
+}
+.loki_other_image{
+	width:90%;
+	height:100%;
+	border:2px solid white;
+	padding-right:1%;
+	padding-left:1%;
+}
+#other_photo_container{
+	display:inline-block;
+	border: 0px solid black;
+	width:95%;
+	height:100%;
+	margin-top:3.5%;
+}
+#photo_alt{
+	border: 0px solid black;
+	border-radius: 0px 0px 40px 40px;
+	height:9%;
+}
+#pet_info{
+	border: 0px solid red;
+	border-radius:30px;
+	
+	float:right;
+	width:28%;
+	min-height:470px;
+	margin-right:18%;
+	margin-top:4%;
+}
+#pet_gri{
+	width:%100;
+	border-radius:30px 30px 0px 0px;
+	height:9%;
+}
+#il{
+
+	width:%100;
+	height:7.8%;
+	border: 1px solid white;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+}
+#id{
+	width:%100;
+	border: 0px solid black;
+	height:7.8%;
+	border: 1px solid white;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+}
+#date{
+	width:%100;
+	border: 0px solid black;
+	height:7.8%;
+	border: 1px solid white;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+}
+#name{
+	width:%100;
+	border: 0px solid black;
+	height:7.8%;
+	border: 1px solid white;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+}
+#species{
+	width:%100;
+	border: 0px solid black;
+	height:7.8%;
+	border: 1px solid white;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+}
+#breed{
+	width:%100;
+	border: 0px solid black;
+	height:7.8%;
+	border: 1px solid white;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+}
+#age{
+	width:%100;
+	height:7.8%;
+	border: 1px solid white;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+}
+#gender{
+	
+	width:%100;
+	border: 0px solid black;
+	height:7.8%;
+	border: 1px solid white;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	
+}
+#alt_gri{
+	width:%100;
+	border: 0px solid black;
+	border-radius:0px 0px 30px 30px;
+	height:9.5%;
+}
+.il_span{
+	
+	font-family: Montserrat, Arial;
+	font-size: 15.5px;
+	font-weight: 500;
+	color:grey;
+	padding-left:8%;
+	
+}
+.bold_span{
+	display:block;
+	margin-top:3%;
+	font-family: Montserrat, Arial;
+	font-size: 15px;
+	font-weight: 700;
+	padding-left:8%;
+}
+.normal_span1{
+	
+	font-family: Montserrat, Arial;
+	font-size: 14px;
+	font-weight: 500;
+	padding-left:14%;
+}
+.normal_span2{
+	
+	font-family: Montserrat, Arial;
+	font-size: 14px;
+	font-weight: 500;
+	padding-left:8.5%;
+}
+.normal_span3{
+	
+	font-family: Montserrat, Arial;
+	font-size: 14px;
+	font-weight: 500;
+	padding-left:19%;
+}
+.normal_span4{
+	
+	font-family: Montserrat, Arial;
+	font-size: 14px;
+	font-weight: 500;
+	padding-left:14%;
+}
+.normal_span5{
+	
+	font-family: Montserrat, Arial;
+	font-size: 14px;
+	font-weight: 500;
+	padding-left:18%;
+}
+.normal_span6{
+	
+	font-family: Montserrat, Arial;
+	font-size: 14px;
+	font-weight: 500;
+	padding-left:24.5%;
+}
+.normal_span7{
+	
+	font-family: Montserrat, Arial;
+	font-size: 14px;
+	font-weight: 500;
+	padding-left:15%;
+}
+#pet{
+	display:inline-block;
+	border-radius:30px;
+	border: 0px solid black;
+	width:100%;
+	height:54.5%;
+	margin-bottom:4%;
+	background-color:#e3e3e3;
+}
+#user{
+	display:inline-block;
+	width:100%;
+	border-radius:30px;
+	border: 0px solid red;
+	height:28%;
+	background-color:#e3e3e3;
+	
+}
+#user_gri{
+	display:inline-block;
+	width:100%;
+	height:18%;
+	border: 0px solid black;
+	border-radius: 30px 30px 0px 0px; 
+}
+#user_name{
+	
+	display:inline-block;
+	width:100%;
+	height:25%;
+	border: 0px solid black;
+	
+	
+}
+.name{
+	
+	font-family: Montserrat, Arial;
+	font-size: 16px;
+	font-weight: 700;
+	color:black;
+	padding-left:9%;
+}
+.date{
+	display:block;
+	font-family: Montserrat, Arial;
+	font-size: 12px;
+	font-weight: 500;
+	padding-left:9%;
+}
+#user_phone{
+	display:inline-block;
+	width:100%;
+	height:35%;
+	border: 0px solid black;
+	
+}
+.user_span{
+	display:block;
+	color:black;
+	font-family: Montserrat, Arial;
+	font-size: 11px;
+	font-weight: 500;
+	color:black;
+	
+}
+.user_span2{
+	display:block;
+	color:black;
+	font-family: Montserrat, Arial;
+	font-size: 11px;
+	font-weight: 500;
+	color:black;
+	margin-left:35%;
+}
+.user_href{
+	
+	color:black;
+	font-family: Montserrat, Arial;
+	font-size: 11px;
+	font-weight: 500;
+	padding-left:9%;
+}
+.user_href2{
+	
+	color:black;
+	font-family: Montserrat, Arial;
+	font-size: 11px;
+	font-weight: 500;
+	
+}
+.button{
+	display:inline-block;
+	border:0px solid black;
+	background-color:white;
+	box-shadow: 2px 2px #c3c3c3;
+	
+	color:black;
+	font-family: Montserrat, Arial;
+	font-size: 18px;
+	font-weight: 700;
+	
+	margin-top:2%;
+	margin-bottom:2%;
+	margin-left:8.3%;
+	padding-top:2%;
+	padding-bottom:2%;
+	padding-left:4.5%;
+	padding-right:4.5%;
+	
+}
+#user_gri2{
+	display:inline-block;
+	width:100%;
+	height:18%;
+	border: 0px solid black;
+	border-radius: 0px 0px 30px 30px; 	
+}
+#pet_notes{
+	display:inline-block;
+	border: 6px solid #e3e3e3;
+	width:62.2%;
+	position:relative;
+	float:none;
+	padding-top:1%;
+	margin-top: 2%;
+	margin-bottom:2%;
+	margin-left:18.3%;
+	min-height:15%;
+	
+}
+.note_span{
+	color:black;
+	font-family: Montserrat, Arial;
+	font-size: 13px;
+	font-weight: 500;
+	padding-left:6%;
+	text-decoration:underline;
+}
+.goodboy{
+	display:block;
+	color:black;
+	font-family: Montserrat, Arial;
+	font-size: 12px;
+	font-weight: 400;
+	padding-left:6%;
+	padding-top:1%;
+	
+}
+#sidebar{
+	border: 0px solid black;
+	width: 18%;
+	min-width: 200px;
+	float: right;
+	padding:10px 0px 0px 0px; 
+	padding-right:5%;
+}
+
+.sidebar_header{
+	font-family: Montserrat, Arial;
+	font-size: 22px;
+	font-weight: 700;
+	
+}
+.sidebar_text{
+	font-family: Montserrat, Arial;
+	font-size: 17px;
+	font-weight: 400;
+	
+}
+
+.sidebar_button {
+	background-color:#44c767;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border-radius:25px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:11px 70px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.sidebar_button:hover {
+	background-color:#5cbf2a;
+}
+.sidebar_button:active {
+	position:relative;
+	top:1px;
+}
+
+#sidebar img {
+	width:120%;
+	height:60%;
+}
+
+
+#bottom{
+	width: 100%;
+	min-width: 1200px;
+	clear:both;
+}
